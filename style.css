@@ -17,6 +17,7 @@
   max-height: 50svh;
   max-width: 20svw;
   border-radius: 180px 180px 0px 0px;
+  margin-bottom: 40px;
 }
 
 #itemtext1 {
@@ -40,4 +41,11 @@
 }
 
 #walltext {
+  background-color: rgba(0, 0, 0, 0.668);
+  color: antiquewhite;
+  display: flex;
+  margin: 0px 400px 0px 400px;
+  flex-direction: column;
+  font-size: large;
+  padding: 10px;
 }
