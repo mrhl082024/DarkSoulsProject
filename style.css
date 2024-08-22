@@ -1,5 +1,43 @@
-.item {
-  background-image: url(/DarkSoulsProject/Assets/Long_Sword.webp);
-  min-height: 50svh;
-  width: 50svw;
+* {
+  margin: 0px;
+}
+
+#background {
+  background-image: url(./Assets/firelinkshrineds1.jpg);
+  max-width: 100svw;
+  min-height: 120svh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+#itembackground {
+  background-color: rgba(0, 0, 0, 0.633);
+  max-height: 50svh;
+  max-width: 20svw;
+  border-radius: 180px 180px 0px 0px;
+}
+
+#itemtext1 {
+  flex-direction: row;
+  color: aliceblue;
+  justify-content: space-around;
+  display: flex;
+}
+
+#itemtext2 {
+  flex-direction: row;
+  color: aliceblue;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+#itembox {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+#walltext {
 }
