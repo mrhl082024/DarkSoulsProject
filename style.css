@@ -1,82 +1,58 @@
 * {
-  margin: 0px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#background {
-  background-image: url(./Assets/firelinkshrineds1.jpg);
-  max-width: 100svw;
-  min-height: 120svh;
+#page-top {
+  background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
+  background-image: url(./Assets/716916.jpg);
   display: flex;
-  flex-direction: column;
+  background-position: bottom;
+  width: 100vw;
+  height: 30vh;
 }
 
-#itembackground {
-  background-color: rgba(0, 0, 0, 0.633);
-  max-height: 50svh;
-  max-width: 20svw;
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  #page-top {
-    background-color: black;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(./Assets/716916.jpg);
-    display: flex;
-    background-position: bottom;
-    width: 100vw;
-    height: 30vh;
-  }
-
-  #nav-bar {
-    background-color: aqua;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url();
-    width: 100vw;
-    height: 8vh;
-    position: sticky;
-    top: 0px;
-    display: flex;
-    align-self: flex-end;
-  }
-
-  border-radius: 180px 180px 0px 0px;
-  margin-bottom: 40px;
-  margin-top: 10px;
+#nav-bar {
+  background-image: radial-gradient(#776d5a, #171219);
+  border: 4px ridge #510e0a59;
+  z-index: 98;
+  background-size: cover;
+  width: 100vw;
+  height: 8vh;
+  position: sticky;
+  top: 0px;
+  display: flex;
+  align-self: flex-end;
 }
 
-#itemtext1 {
-  flex-direction: row;
-  color: aliceblue;
-  justify-content: space-around;
-  display: flex;
+#main {
+  background-color: blueviolet;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./Assets/wallpapersden.com_dark-souls-3-ringed-city_1920x1080.jpg);
+  width: 100%;
+  height: 70vh;
+  position: absolute;
 }
 
-#itemtext2 {
-  flex-direction: row;
-  color: aliceblue;
-  justify-content: space-evenly;
-  display: flex;
+#tekstavsnitt {
+  background-color: black;
+  opacity: 50%;
+  max-width: 50%;
+  min-height: 40vh;
+  border-radius: 15px;
+  margin: 3rem 0rem 0rem 3rem;
 }
 
-#itembox {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
+#overtekst {
+  color: white;
+  padding: 2rem 2rem 5rem 2rem;
 }
 
-#walltext {
-  background-color: rgba(0, 0, 0, 0.668);
-  color: antiquewhite;
-  display: flex;
-  margin: 0px 400px 0px 400px;
-  flex-direction: column;
-  font-size: large;
-  padding: 10px;
+#undertekst {
+  color: white;
+  padding: 0 2rem 0 2rem;
 }
