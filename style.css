@@ -16,6 +16,36 @@
   background-color: rgba(0, 0, 0, 0.633);
   max-height: 50svh;
   max-width: 20svw;
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #page-top {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./Assets/716916.jpg);
+    display: flex;
+    background-position: bottom;
+    width: 100vw;
+    height: 30vh;
+  }
+
+  #nav-bar {
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url();
+    width: 100vw;
+    height: 8vh;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    align-self: flex-end;
+  }
+
   border-radius: 180px 180px 0px 0px;
   margin-bottom: 40px;
   margin-top: 10px;
