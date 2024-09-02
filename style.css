@@ -7,21 +7,94 @@
 #top_bilde {
   background-color: black;
   background-image: url(./Assets/ds3_title.png);
-  width: 100svw;
+  max-width: 100svw;
   height: 20svh;
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 #nav_bar {
+  max-width: 100svw;
+  height: 6svh;
+  border: 4px ridge rgb(0, 0, 0);
+  background-image: radial-gradient(rgb(213, 0, 0), rgba(0, 0, 0, 0.866));
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
   position: sticky;
   top: 0px;
-  width: 100svw;
-  height: 6svh;
-  border: 4px ridge red;
-  background-color: blue;
 }
 
 button {
+  height: 1.5rem;
+  width: 5rem;
+  background-image: radial-gradient(red, black);
+  border-radius: 5px;
+  border-bottom: linen;
+  color: antiquewhite;
+}
+
+#main_bilde {
+  background-color: aqua;
+  background-image: url(./Assets/ds3_ashes_city.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100svw;
+  height: 100svh;
+  padding: 3rem;
+}
+
+#section_1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#boble_1 {
+  background-color: rgba(0, 0, 0, 0.499);
+  width: 40svw;
+  height: 40svh;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+#overtekst {
+  padding: 2rem 0rem 0rem 0.5rem;
+}
+
+#undertekst {
+  display: flex;
+  padding: 2rem 0rem 0rem 1rem;
+}
+
+#boble_2 {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 30svw;
+  height: auto;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  color: antiquewhite;
+}
+
+h1 {
+  color: antiquewhite;
+}
+
+img {
+  width: 20svw;
+}
+
+tr,
+th,
+td {
+  border: 2px solid white;
+  color: antiquewhite;
 }
